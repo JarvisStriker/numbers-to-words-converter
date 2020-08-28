@@ -1,0 +1,17 @@
+{
+  "name": "numbers-to-words-converter",
+  "version": "1.0.0",
+  "description": "Number to words converter. Also supports Indian and International numbering system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "number-to-words",
+    "number",
+    "words",
+    "converter"
+  ],
+  "author": "Kushal S T",
+  "license": "ISC"
+}
