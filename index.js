@@ -1,6 +1,6 @@
 var helpers = require('./helpers.js');
 
-functions = {
+module.exports = {
     isSafeNumber: (num) => {
         return helpers.isSafeNumber(num)
     },
