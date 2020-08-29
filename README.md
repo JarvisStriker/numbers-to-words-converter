@@ -1,7 +1,7 @@
 # @kushalst/numbers-to-words-converter
 
 
-[![npm version](https://img.shields.io/badge/npm-v1.0.3-blue)](https://github.com/JarvisStriker/numbers-to-words-converter)
+[![npm version](https://img.shields.io/badge/npm-v1.0.4-blue)](https://github.com/JarvisStriker/numbers-to-words-converter)
 
 `numbers-to-words-converter` lets you expand numbers to words. There are other auxiallry functions that might help you achieve other things while you are at it. 
 
@@ -9,13 +9,14 @@
 
 ### Documentation
 </br>
+
 ```sh
 npm i @kushalst/numbers-to-words-converter
 ```
 
-Number systems supported 
-`IN` - Indian Number System (Lakhs, Crores, ...)
-`INTL` - International Number System (Millions, Billions, ...)
+Number systems supported </br>
+`IN` - Indian Number System (Lakhs, Crores, ...) </br>
+`INTL` - International Number System (Millions, Billions, ...) </br>
 
 | Functions | Description |
 | ------ | ------ |
