@@ -1,6 +1,6 @@
 {
-  "name": "numbers-to-words-converter",
-  "version": "1.0.0",
+  "name": "@kushalst/numbers-to-words-converter",
+  "version": "1.0.1",
   "description": "Number to words converter. Also supports Indian and International numbering system.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "number-to-words",
     "number",
     "words",
-    "converter"
+    "converter",
+    "indian number system",
+    "INR",
+    "international number system",
+    "comma in numbers"
   ],
   "author": "Kushal S T",
   "license": "ISC"
