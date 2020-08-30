@@ -1,0 +1,5 @@
+extension: ['ts']
+reporter: 'spec'
+diff: true
+package: './package.json'
+spec: test/**/*.spec.ts
