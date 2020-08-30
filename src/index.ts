@@ -9,9 +9,12 @@ export const converter = {
         val = helpers.removeCommas(val).toString();
 
         if (helpers.isSafeNumber(parseInt(val))) {
-            if (type === SYSTEM.INTL)
-                return helpers.generateWordsINTL(parseInt(val));
-            else return helpers.generateWordsIN(parseInt(val));
+            switch (type) {
+                case SYSTEM.INTL:
+                    return helpers.generateWordsINTL(parseInt(val));
+                case SYSTEM.IN:
+                    return helpers.generateWordsIN(parseInt(val));
+            }
         } else {
             throw new Error(
                 "Used numerical value exceeds floating point precision"
