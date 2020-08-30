@@ -5,7 +5,7 @@
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
-    "prepublish": "yarn lint && yarn test && yarn compile",
+    "prepublishOnly": "yarn lint && yarn test && yarn compile",
     "compile": "tsc",
     "test": "cross-env TS_NODE_PROJECT='tsconfig.json' mocha --require ts-node/register",
     "lint": "eslint ./src/*.ts"
