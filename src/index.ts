@@ -1,7 +1,7 @@
 import helpers from "./helpers";
 import { SYSTEM } from "./constants";
 
-export default {
+export const converter = {
     isSafeNumber: (num: number): boolean => {
         return helpers.isSafeNumber(num);
     },
@@ -9,7 +9,6 @@ export default {
         val = helpers.removeCommas(val).toString();
 
         if (helpers.isSafeNumber(parseInt(val))) {
-            console.log();
             if (type === SYSTEM.INTL)
                 return helpers.generateWordsINTL(parseInt(val));
             else return helpers.generateWordsIN(parseInt(val));

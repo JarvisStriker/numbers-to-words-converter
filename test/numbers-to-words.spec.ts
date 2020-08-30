@@ -1,4 +1,4 @@
-import converter from "../src/index";
+import { converter } from "../src/index";
 import { it } from "mocha";
 import { assert } from "chai";
 import { SYSTEM } from "../src/constants";
