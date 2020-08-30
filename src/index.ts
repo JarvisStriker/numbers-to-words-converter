@@ -14,6 +14,8 @@ export const converter = {
                     return helpers.generateWordsINTL(parseInt(val));
                 case SYSTEM.IN:
                     return helpers.generateWordsIN(parseInt(val));
+                default:
+                    throw new Error("Invalid number system");
             }
         } else {
             throw new Error(
