@@ -1,44 +1,47 @@
 {
-  "name": "@kushalst/numbers-to-words-converter",
-  "version": "1.1.1",
-  "description": "Number to words converter. Also supports Indian and International numbering system.",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
-  "scripts": {
-    "prepublishOnly": "yarn lint && yarn test && yarn compile",
-    "compile": "tsc",
-    "test": "cross-env TS_NODE_PROJECT='tsconfig.json' mocha --require ts-node/register",
-    "lint": "eslint ./src/*.ts"
-  },
-  "keywords": [
-    "number-to-words",
-    "number",
-    "words",
-    "converter",
-    "indian number system",
-    "INR",
-    "international number system",
-    "comma in numbers"
-  ],
-  "author": "Kushal S T",
-  "license": "MIT",
-  "devDependencies": {
-    "@commitlint/cli": "^9.1.2",
-    "@commitlint/config-conventional": "^9.1.2",
-    "@types/chai": "^4.2.12",
-    "@types/mocha": "^8.0.3",
-    "@types/node": "^14.6.2",
-    "@typescript-eslint/eslint-plugin": "^3.10.1",
-    "@typescript-eslint/parser": "^3.10.1",
-    "chai": "^4.2.0",
-    "cross-env": "^7.0.2",
-    "eslint": "^7.7.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
-    "mocha": "^8.1.3",
-    "prettier": "^2.1.1",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.2"
-  }
+    "name": "@jarvis-striker/numbers-to-words-converter",
+    "version": "0.1.0",
+    "description": "Number to words converter. Also supports Indian and International numbering system.",
+    "main": "dist/src/index.js",
+    "types": "dist/src/index.d.ts",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "scripts": {
+        "prepublishOnly": "yarn lint && yarn test && yarn compile",
+        "compile": "tsc",
+        "test": "cross-env TS_NODE_PROJECT='tsconfig.json' mocha --require ts-node/register",
+        "lint": "eslint ./src/*.ts"
+    },
+    "keywords": [
+        "number-to-words",
+        "number",
+        "words",
+        "converter",
+        "indian number system",
+        "INR",
+        "international number system",
+        "comma in numbers"
+    ],
+    "author": "Kushal S T",
+    "license": "MIT",
+    "devDependencies": {
+        "@commitlint/cli": "^9.1.2",
+        "@commitlint/config-conventional": "^9.1.2",
+        "@types/chai": "^4.2.12",
+        "@types/mocha": "^8.0.3",
+        "@types/node": "^14.6.2",
+        "@typescript-eslint/eslint-plugin": "^3.10.1",
+        "@typescript-eslint/parser": "^3.10.1",
+        "chai": "^4.2.0",
+        "cross-env": "^7.0.2",
+        "eslint": "^7.7.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "husky": "^4.2.5",
+        "mocha": "^8.1.3",
+        "prettier": "^2.1.1",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.2"
+    }
 }
