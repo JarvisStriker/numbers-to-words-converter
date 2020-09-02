@@ -1,12 +1,9 @@
 {
-    "name": "@jarvis-striker/numbers-to-words-converter",
-    "version": "0.1.0",
+    "name": "@kushalst/numbers-to-words-converter",
+    "version": "1.1.1",
     "description": "Number to words converter. Also supports Indian and International numbering system.",
     "main": "dist/src/index.js",
     "types": "dist/src/index.d.ts",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    },
     "scripts": {
         "prepublishOnly": "yarn lint && yarn test && yarn compile",
         "compile": "tsc",
@@ -25,6 +22,7 @@
     ],
     "author": "Kushal S T",
     "license": "MIT",
+    "homepage": "https://github.com/JarvisStriker/numbers-to-words-converter#readme",
     "devDependencies": {
         "@commitlint/cli": "^9.1.2",
         "@commitlint/config-conventional": "^9.1.2",
@@ -43,5 +41,9 @@
         "prettier": "^2.1.1",
         "ts-node": "^9.0.0",
         "typescript": "^4.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JarvisStriker/numbers-to-words-converter.git"
     }
 }

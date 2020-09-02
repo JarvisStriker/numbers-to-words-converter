@@ -1,6 +1,6 @@
-# @jarvis-striker/numbers-to-words-converter
+# @kushalst/numbers-to-words-converter
 
-[![npm version](https://img.shields.io/badge/npm-v0.1.0-blue)](https://github.com/JarvisStriker/numbers-to-words-converter)
+[![npm version](https://img.shields.io/badge/npm-v1.1.1-blue)](https://github.com/JarvisStriker/numbers-to-words-converter)
 
 `numbers-to-words-converter` lets you expand numbers to words. There are other auxiallry functions that might help you achieve other things while you are at it.
 
@@ -11,7 +11,7 @@
 </br>
 
 ```sh
-npm i @jarvis-striker/numbers-to-words-converter
+npm i @kushalst/numbers-to-words-converter
 ```
 
 Number systems supported </br>
@@ -31,7 +31,7 @@ Number systems supported </br>
 </br>
 
 ```javascript
-var { converter, SYSTEM } = require("@jarvis-striker/numbers-to-words-converter");
+var { converter, SYSTEM } = require("@kushalst/numbers-to-words-converter");
 
 converter.isSafeNumber(123123123123123123123445555);
 //false
@@ -51,8 +51,8 @@ converter.toWords("10,00,000,32,78,944", SYSTEM.INTL);
 converter.toWords("10,,,46,3,278,944", SYSTEM.IN); // commas don't matter
 //one thousand, forty-six crore, thirty-two lakh, seventy-eight thousand, nine hundred forty-four
 
-converter.delCommas(converter.toWords("10,,,46,3,278,944", SYSTEM.INTL));
-//ten billion four hundred sixty-three million two hundred seventy-eight thousand nine hundred forty-four
+converter.delCommas("10,,,46,3,278,944");
+//10463278944
 ```
 
 More features coming up soon!
